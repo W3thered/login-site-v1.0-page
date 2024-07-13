@@ -1,0 +1,167 @@
+body {
+	width: 100%;
+	background: linear-gradient(to right, black, darkblue);
+	color: white;
+	align-content: center;
+	background-position: center;
+	background-size: cover;
+	background-image: no-repeat;
+}
+.loginh1{
+	text-align: center;
+	font-family: arial;
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom:  50px;
+}
+.loginfieldsusername{
+	padding-bottom: 10px;
+	margin-bottom:   10%;
+	padding-top: 7px;
+	size: 200px;
+	background: transparent; 
+	text-align: center;
+	font-family: arial;
+	display: block;
+	margin: auto;
+	border-radius: 30px 30px 30px 30px;
+	border-color: white; 
+	border-width: 1px;
+	width: 250px;
+	border: 1px solid;
+	font-size: 12px;
+}
+.usernametext{
+	text-align: center;
+	font-family: arial;
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+	font-size: 80px;
+}
+.loginfieldspassword{
+	color: white;
+	background: transparent; 
+	position: relative;	
+	padding-bottom: 7px;
+	padding-top: 10px;
+	border: 1px solid;
+	width: 250px;
+	text-align: center;
+	font-family: arial;
+	display: block;
+	margin: auto;
+	border-radius: 30px 30px 30px 30px;
+	background-color:  transparent; 
+	border-width: 1px;
+	font-size: 12px;
+
+}
+div{
+  margin:7px;
+}
+.submit{
+	margin-top: 10px;
+	font-family: arial;
+
+}
+	button{
+	
+	color: black;
+	background-color:linear-gradient(to right,#1b1b32 , #2f018a ) ;
+	padding-bottom: 7px;
+	padding-top: 10px;
+
+	background-color: white;
+width: 250px;
+	text-align: center;
+	font-family: arial;
+	display: block;
+	margin: auto;
+	border-radius: 30px 30px 30px 30px;
+	border-color: white;
+	border-width: 1px;
+}
+section{
+
+	border: 2px solid;
+background: transparent; 
+	border-radius: 30px 30px 30px 30px;
+	margin-top: 100px;
+	padding-top: 10px;
+		padding-bottom:  100px;
+		padding-right: 30px;
+		padding-left: 30px;
+	background-color: rgba(255,255,255,0.2);
+	width: 25%;
+    height: 25%;
+	margin-right:  auto;
+	margin-left:  auto;
+	filter: blur 20px;
+}
+.bxs-lock-alt {
+	top:-10%;
+	position: absolute;
+	
+	
+}
+.checkbox{
+	font-size: 13px;
+	font-family: arial;
+	text-align: center;
+	margin-left: 50px;
+	margin:auto;
+	display: block;
+}
+hr{
+	border-color: white ;
+	background-color: white;
+	color: white ;
+	width: 200px;
+	height: 1px;
+	border-radius: 30px;
+	border-width: 1px;
+}
+p{
+
+	position: relative;	
+	font-size: 13px;
+	padding-bottom: 7px;
+	padding-top: 10px;
+
+width: 300px;
+	text-align: center;
+	font-family: arial;
+	display: block;
+	margin: auto;
+	border-radius: 30px 30px 30px 30px;
+	border-color:  ;
+
+}
+a{
+	color: yellow;
+	text-decoration: none;
+}
+input{
+	font-size: 16px;
+	color: white;
+}
+.signup{
+	display: block;
+}
+button:active{
+	background: transparent;
+	color: white;
+}
+button:hover{
+	background-color: ;
+}
+.loginfieldspassword::placeholder{
+	color: white;
+	transform: translateX(-90px);
+}
+.loginfieldsusername::placeholder{
+	transform: translateX(-90px);
+	color: white;
+}
